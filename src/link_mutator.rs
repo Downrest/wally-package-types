@@ -266,6 +266,16 @@ mod tests {
     use super::*;
 
     #[test]
+    fn exported_types_with_const_are_parsed() {
+        let code = r"
+            const VALUE = 5
+            export type Foo = Types.Foo
+        ";
+
+        assert!(full_moon::parse(code).is_ok());
+    }
+
+    #[test]
     fn re_exports_generic_defaults_if_they_are_part_of_the_type() {
         let code = r"
             export type Value<T, S = T> = Types.Value<T, S>
