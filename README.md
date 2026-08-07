@@ -6,7 +6,7 @@ A small tool which fixes the issue of [wally](https://github.com/UpliftGames/wal
 
 The tool takes in a path to a Packages folder, as well as a path to a generated sourcemap, and attempts to retrieve the relevant types and append them to the top of the package thunk
 
-Extra note! For Rokit users, use this:
+Extra note from Downrest! For Rokit users, use this:
 ```sh
 wally-package-types = "Downrest/wally-package-types@1.6.2"
 ```
