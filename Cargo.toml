@@ -1,6 +1,6 @@
 [package]
-name = "wally-package-types"
-description = "Tool to fix wally package thunks with Luau types"
+name = "downrest-wally-package-types"
+description = "Tool to fix wally package thunks with Luau types (Modified)"
 license = "MIT"
 version = "1.6.2"
 edition = "2021"
