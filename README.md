@@ -1,4 +1,4 @@
-> # This is a fork to (temporarily) merge the PR for supporting type functions and build the Rust .exe file with the merge.
+> # This is a fork to (temporarily) merge the PR for supporting type functions and build the Rust .exe files with the merge.
 
 # Wally Package Types Fixer
 
