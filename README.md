@@ -1,4 +1,5 @@
 # Wally Package Types Fixer
+> Fork to merge the PR for supporting type functions.
 
 A small tool which fixes the issue of [wally](https://github.com/UpliftGames/wally) thunks not including exported types, necessary for proper Luau type checking support.
 
