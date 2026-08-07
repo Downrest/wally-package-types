@@ -1,5 +1,6 @@
+> # This is a fork to (temporarily) merge the PR for supporting type functions and build the Rust .exe file with the merge.
+
 # Wally Package Types Fixer
-> Fork to merge the PR for supporting type functions.
 
 A small tool which fixes the issue of [wally](https://github.com/UpliftGames/wally) thunks not including exported types, necessary for proper Luau type checking support.
 
